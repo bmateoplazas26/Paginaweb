@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Desarrollador ADSO</title>
+    <!-- Aquí conectamos el archivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN (Actividad 6 del taller) -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span>ADSO</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. SECCIÓN INICIO -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Hola, Soy <span class="resaltado">Mateo Plazas</span></h1>
+                <p class="frase-bienvenida">"Transformando ideas en código limpio y soluciones digitales."</p>
+                <p>Aprendiz del programa Análisis y Desarrollo de Software (ADSO), enfocado en la creación de interfaces y lógica de programación.</p>
+                <a href="#sobre-mi" class="btn-principal">Conoce mi perfil</a>
+            </div>
+        </section>
+
+        <!-- 2. SECCIÓN SOBRE MÍ -->
+        <section id="sobre-mi" class="seccion">
+            <h2>Sobre mí</h2>
+            <div class="about-container">
+                <!-- Aquí va tu foto (recuerda cambiar 'img/mi_foto.jpg' por el nombre de tu archivo) -->
+                <img src="img/mi_foto.jpg.jpeg" alt="Foto de perfil del desarrollador" class="foto-perfil">
+                
+                <div class="about-texto">
+                    <p>Soy un apasionado de la tecnología cursando el tecnólogo en ADSO. Elegí esta formación porque el desarrollo de software me da las herramientas para resolver problemas reales de la cotidianidad mediante sistemas eficientes.</p>
+                    <p>Me interesa dominar la lógica de programación, el diseño de bases de datos relacionales y la construcción de aplicaciones web escalables.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECCIÓN HABILIDADES (Uso de tarjetas) -->
+        <section id="habilidades" class="seccion alt-bg">
+            <h2>Mis Habilidades</h2>
+            <div class="grid-tarjetas">
+                <div class="tarjeta">
+                    <h3>Bases de Datos</h3>
+                    <p>Diseño de modelos relacionales, normalización y consultas multitabla con SQL Server.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Programación C#</h3>
+                    <p>Desarrollo de lógica de software y aplicaciones de escritorio utilizando Windows Forms.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Desarrollo Web</h3>
+                    <p>Maquetación responsiva con HTML5, CSS3 y estructuras MVC básicas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SECCIÓN PROYECTOS (Proyecto académico previo) -->
+        <section id="proyectos" class="seccion">
+            <h2>Mis Proyectos</h2>
+            <div class="grid-tarjetas">
+                <div class="tarjeta proyecto-card">
+                    <h3>Sistema de Gestión para Minimercados</h3>
+                    <p><strong>Objetivo:</strong> Desarrollar una solución web para el control de inventarios de tiendas locales.</p>
+                    <p><strong>Descripción:</strong> Módulo enfocado en el registro de productos, control de stock y control de entradas/salidas.</p>
+                    <p class="tech"><strong>Tecnologías:</strong> C#, ASP.NET Core, SQL Server, HTML, CSS.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SECCIÓN CONTACTO -->
+        <section id="contacto" class="seccion alt-bg">
+            <h2>Contacto</h2>
+            <p>¿Quieres saber más sobre mis proyectos o conectar profesionalmente?</p>
+            <p class="email-contacto">📧 Correo académico: <strong>BMPR34556869@soy.sena.edu.co</strong></p>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 - Portafolio Personal | ADSO SENA</p>
+    </footer>
+
+</body>
+</html>
